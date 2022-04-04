@@ -1,0 +1,61 @@
+.container {
+  height: 100vh;
+  padding: 4vh;
+  font-size: 0.7vw;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 4vh 0 0 0;
+  align-items: baseline;
+}
+
+.bar p {
+  font-size: 1em;
+}
+
+.trial_card {
+  padding: 0;
+}
+.trial_card_header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: medium;
+}
+.trial_card_header_inner {
+  display: flex;
+  align-items: baseline;
+}
+.trial_card_header_inner span {
+  font-weight: normal;
+  font-size: 0.7em;
+  margin-left: 0.5em;
+}
+
+.trial_card p {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.priceBar {
+  display: flex;
+  align-items: baseline;
+}
+.priceBar p {
+  font-size: 2vw;
+  font-weight: bold;
+}
+.priceBar span {
+  margin-left: 5%;
+  font-size: medium;
+  color: 'silver';
+}
+.cardHeader {
+  display: flex;
+  align-items: center;
+}
+.cardHeader p {
+  font-weight: bolder;
+}

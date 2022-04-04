@@ -1,0 +1,18 @@
+.splash {
+  width: 720px;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+}
+
+.main > div,
+.main > form {
+  flex: 1;
+}
+
+.main > div:nth-child(2) {
+  background: rgb(51, 3, 102);
+  background: linear-gradient(145deg, rgba(51, 3, 102, 1) 0%, rgba(185, 26, 84, 1) 100%);
+}

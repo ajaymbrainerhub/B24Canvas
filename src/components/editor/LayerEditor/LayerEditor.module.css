@@ -1,0 +1,71 @@
+.layerPanel {
+  height: 100%;
+  position: relative;
+  background-color: #ffffff;
+  min-width: 360px;
+
+  transition: 0.38s all ease;
+}
+
+.panelHead {
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: 600;
+  padding: 0 14px;
+  margin-bottom: 8px;
+  user-select: none;
+}
+
+.elementsContainer {
+  padding: 14px;
+}
+
+.layerItemContainer {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.layerItemContainer > svg {
+  margin: 0 12px;
+  width: 20px;
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+.layerItem {
+  border-radius: 14px;
+  padding: 18px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #f7f7f7;
+  transition: 0.3s;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+  flex-wrap: wrap;
+}
+
+.layerItemContainer:hover .layerItem,
+.layerItemContainer.active .layerItem {
+  background-color: #dfeaf8;
+}
+
+.layerItemContainer:hover > svg,
+.layerItemContainer.active > svg {
+  opacity: 1;
+}
+
+.layerOrder {
+  width: 100%;
+}
+
+.layerImage img {
+  display: block;
+  width: auto;
+  object-fit: scale-down;
+  height: 60px;
+}

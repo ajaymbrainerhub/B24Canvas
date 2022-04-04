@@ -1,0 +1,81 @@
+.container {
+  flex-grow: 1;
+  padding: 3vh 3vw 3vh 3vw;
+}
+
+.masonry {
+  padding: 5% 0 5% 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .masonItem {
+    height: 250px;
+    flex: 1 0 auto;
+    margin: 0 24px 56px 0;
+    border: 1px solid #ddddde;
+    border-radius: 4px;
+  } */
+
+.masonry::after {
+  content: '';
+  flex-grow: 999999999;
+}
+
+.masonItem {
+  margin: 0 24px 56px 0;
+  position: relative;
+}
+
+.masonItem > i {
+  display: block;
+}
+
+.masonItem > div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.emptyWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+.empty {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.empty svg {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.empty h2 {
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.empty span {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.empty button {
+  background-color: #005ad1;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: white;
+}
+.indexTitle {
+  margin-bottom: 32px;
+  font-size: 2rem;
+}

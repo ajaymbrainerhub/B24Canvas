@@ -1,0 +1,22 @@
+<svg id="Komponente_7_1" data-name="Komponente 7 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35.724" height="37.5" viewBox="0 0 35.724 37.5">
+  <defs>
+    <filter id="Ellipse_6" x="1" y="4.5" width="34" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="cloud" transform="translate(0 0)">
+    <g id="Gruppe_72" data-name="Gruppe 72">
+      <path id="Pfad_99" data-name="Pfad 99" d="M29.431,114.483h-.065q.007-.171.007-.343a7.992,7.992,0,0,0-7.983-7.983,7.91,7.91,0,0,0-4.847,1.64,8.058,8.058,0,0,0-2.312,2.812,6.293,6.293,0,0,0-9.3,5.526q0,.113,0,.227a5.361,5.361,0,0,0,.426,10.7H29.431a6.292,6.292,0,1,0,0-12.585Z" transform="translate(0 -106.158)" fill="#00c194"/>
+    </g>
+  </g>
+  <g id="Gruppe_73" data-name="Gruppe 73" transform="translate(10.258 11.113)">
+    <g transform="matrix(1, 0, 0, 1, -10.26, -11.11)" filter="url(#Ellipse_6)">
+      <ellipse id="Ellipse_6-2" data-name="Ellipse 6" cx="8" cy="7.5" rx="8" ry="7.5" transform="translate(10 11.5)" fill="#fff"/>
+    </g>
+    <path id="check_7_" data-name="check (7)" d="M3.512,7.39a.468.468,0,0,1-.662,0L.206,4.746a.7.7,0,0,1,0-.993l.331-.331a.7.7,0,0,1,.993,0L3.18,5.072,7.64.612a.7.7,0,0,1,.993,0l.331.331a.7.7,0,0,1,0,.993Zm0,0" transform="translate(3.108 3.727)" fill="#00c194"/>
+  </g>
+</svg>

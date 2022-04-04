@@ -1,0 +1,65 @@
+.templateInner {
+  padding: 15px;
+}
+.templateInnerTitle {
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 15px !important;
+}
+.grayCard {
+  background-color: #ffffff11;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.grayCardTitle {
+  font-size: 13px !important;
+  line-height: 20px !important;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 8px !important;
+}
+.cardRow {
+  display: flex;
+  align-items: center;
+}
+.cardRow button {
+  padding: 0;
+  height: auto;
+}
+.whiteBtn {
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  color: #000;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 3px 12px !important;
+  text-transform: capitalize;
+  height: auto !important;
+  margin-left: 12px;
+}
+.textsizeTitle {
+  color: #fff;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 2px !important;
+}
+.textsize {
+  color: #fff;
+  margin-bottom: 2px !important;
+}
+.iconBtn {
+  padding: 0;
+  height: auto;
+}
+@media only screen and (max-width: 991px) {
+  .textsizeTitle {
+    color: #fff;
+    width: 130px;
+  }
+}

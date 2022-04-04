@@ -1,0 +1,30 @@
+.moveableEditable {
+  position: absolute;
+  left: -40px;
+  top: 6px;
+  will-change: transform;
+  transform-origin: 0 0;
+}
+
+.moveableButton {
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 4px;
+  background: #fff;
+  border-radius: 4px;
+  appearance: none;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(14, 19, 24, 0.15);
+}
+
+.moveableButton.active {
+  background-color: #e2e2e2;
+}
+.moveableButton svg {
+  pointer-events: none;
+}

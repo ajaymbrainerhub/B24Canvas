@@ -1,0 +1,42 @@
+.card {
+  min-height: 170px !important;
+  width: 200px !important;
+  position: relative;
+  border: 1px solid #d1d1d1 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+.card p {
+  margin-bottom: 12;
+  font-size: 14px;
+  font-weight: bold;
+}
+.card p:last-child {
+  margin-bottom: 0 !important;
+  font-size: 11px;
+  font-weight: bold;
+}
+.card img {
+  height: 133px;
+  max-width: 100%;
+}
+.cardInfo {
+  padding: 10px 15px;
+}
+.cardInner {
+  padding: 0 !important;
+}
+.card button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  height: 28px;
+  padding: 0;
+  min-width: 0;
+  width: 28px;
+  border-radius: 50%;
+  z-index: 10;
+  background-color: #fff;
+}
