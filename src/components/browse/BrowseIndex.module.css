@@ -1,0 +1,79 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: stretch;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sideBar {
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.bar {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  width: 300px;
+
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.barTitle {
+  display: flex;
+  padding: 20px 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barTitle h3 {
+  font-size: 25px;
+  font-weight: 500;
+  height: 5rem;
+}
+
+.bar ul {
+  padding: 0 15px;
+}
+
+.bar li {
+  border-radius: 10px;
+  background: #f5f5f5;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bar svg {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.bar button {
+  height: auto;
+  padding: 0;
+}
+
+.list {
+  padding-top: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.listItem > * {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.listItem ~ .listItem {
+  margin-top: 8px;
+}
+
+.main {
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+}

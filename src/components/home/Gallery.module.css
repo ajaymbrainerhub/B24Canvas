@@ -1,0 +1,9 @@
+.design {
+  cursor: pointer;
+}
+
+.design img {
+  border-radius: 10px;
+  max-width: 450px;
+  max-height: 450px;
+}

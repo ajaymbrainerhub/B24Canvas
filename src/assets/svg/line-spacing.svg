@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.462" height="14.586" viewBox="0 0 17.462 14.586">
+  <g id="line-spacing" transform="translate(1.734 0.539)">
+    <path id="Pfad_254" data-name="Pfad 254" d="M207.859,120.5H200.4a.4.4,0,0,0,0,.794h7.462a.4.4,0,1,0,0-.794Z" transform="translate(-193.028 -117.312)" stroke="#000" stroke-width="1"/>
+    <path id="Pfad_255" data-name="Pfad 255" d="M207.859,241H200.4a.4.4,0,1,0,0,.794h7.462a.4.4,0,1,0,0-.794Z" transform="translate(-193.028 -234.624)" stroke="#000" stroke-width="1"/>
+    <path id="Pfad_256" data-name="Pfad 256" d="M207.859,361.5H200.4a.4.4,0,1,0,0,.794h7.462a.4.4,0,1,0,0-.794Z" transform="translate(-193.028 -351.935)" stroke="#000" stroke-width="1"/>
+    <path id="Pfad_257" data-name="Pfad 257" d="M207.859,482H200.4a.4.4,0,1,0,0,.794h7.462a.4.4,0,1,0,0-.794Z" transform="translate(-193.028 -469.247)" stroke="#000" stroke-width="1"/>
+    <path id="Pfad_258" data-name="Pfad 258" d="M200.4.794h7.462a.4.4,0,1,0,0-.794H200.4a.4.4,0,1,0,0,.794Z" transform="translate(-193.028 0)" stroke="#000" stroke-width="1"/>
+    <path id="Pfad_259" data-name="Pfad 259" d="M4.213,2.265a.613.613,0,0,0,.718,0,.339.339,0,0,0,0-.561L2.9.116a.613.613,0,0,0-.719,0L.148,1.7a.339.339,0,0,0,0,.561.613.613,0,0,0,.719,0l1.165-.91V12.192l-1.165-.91a.613.613,0,0,0-.719,0,.339.339,0,0,0,0,.561l2.032,1.588a.613.613,0,0,0,.719,0l2.032-1.588a.339.339,0,0,0,0-.561.613.613,0,0,0-.719,0l-1.165.91V1.355Z" transform="translate(-1.233 0)" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+.moveableDimension {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 2px 4px;
+  color: #111111;
+  font-size: 13px;
+  white-space: nowrap;
+  font-weight: bold;
+  will-change: transform;
+  transform: translate(-50%, 0px);
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(14, 19, 24, 0.15);
+}

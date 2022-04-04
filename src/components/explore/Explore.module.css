@@ -1,0 +1,226 @@
+.designWrapper {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px !important;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 15%) !important;
+}
+
+.designWrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.exploreCards {
+  margin: 12px 40px;
+}
+
+.exploreCardsBlock {
+  margin-right: 18px !important;
+  margin-bottom: 18px !important;
+}
+.PublishUser {
+  padding-left: 12px !important;
+}
+
+.PublishUser__title {
+  margin-bottom: 10px !important;
+  color: #666;
+}
+
+.PublishUser__box {
+  margin-bottom: 15px !important;
+}
+
+.PublishUser__img {
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 15%);
+  margin-right: 10px;
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.PublishUser__name {
+  color: #000;
+  font-weight: 700 !important;
+  font-size: 11px !important;
+}
+
+.mediaContentPopUp {
+  padding: 10px;
+  border-radius: 12px !important;
+}
+
+.templateInfo {
+  display: flex;
+}
+
+.tamplateTitle {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: #005ad1;
+  margin-right: 8px;
+}
+
+.tamplatePrice {
+  background-color: #d0e4ff;
+  border-radius: 55px;
+  padding: 3px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000;
+}
+
+.tamplateType {
+  font-size: 11px !important;
+  color: #333;
+  margin-bottom: 20px !important;
+}
+
+.bluebtn {
+  border: 1px solid #3f51b5 !important;
+  background-color: #3f51b5 !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  height: auto;
+  border-radius: 50px !important;
+  padding: 5px 18px !important;
+}
+
+.likeBtn {
+  background-color: #eee;
+  width: 28px;
+  height: 28px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.categoriesRow {
+  padding: 10px 15px;
+}
+
+.mediaContentImg {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.confirmOrderPopup {
+  padding: 30px 45px;
+}
+
+.confirmOrderPopupTitle {
+  font-size: 18px !important;
+  color: #000 !important;
+  line-height: 28px !important;
+  margin-bottom: 12px !important;
+  font-weight: 600 !important;
+  text-align: center;
+}
+
+.confirmCard {
+  background: #eee;
+  border-radius: 8px;
+  padding: 8px;
+  align-items: center;
+  width: 315px !important;
+  margin: 12px auto;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.confirmCardImg {
+  width: 70px;
+  height: 70px;
+  flex: 70px 0 0;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-right: 10px !important;
+}
+
+.confirmCardName {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: #005ad1 !important;
+  line-height: 16px !important;
+}
+
+.confirmCardAmount {
+  background-color: #d0e4ff;
+  border-radius: 55px;
+  padding: 2px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000;
+  margin-left: 8px !important;
+}
+
+.confirmCardType {
+  font-size: 11px !important;
+  color: #555 !important;
+  line-height: 15px !important;
+  margin-bottom: 5px !important;
+}
+
+.confirmCardInfo {
+  width: calc(100% - 82px);
+}
+
+.confirmCardInfo .PublishUser__box {
+  margin-bottom: 0 !important;
+}
+.PublishUserImage {
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 15%);
+  margin-right: 10px;
+  height: 28px !important;
+  width: 28px !important;
+}
+
+.categoriesChip {
+  padding: 8px 6px !important;
+  height: 30px !important;
+  font-size: 11px !important;
+  margin: 3px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+}
+.chip_wrapper {
+  cursor: pointer;
+}
+
+.confirmBtns {
+  justify-content: center !important;
+  margin-top: 30px !important;
+}
+
+@media only screen and (max-width: 960px) {
+  .PublishUser {
+    padding-left: 0px !important;
+    margin-top: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .confirmCardImg {
+    width: 100%;
+  }
+  .confirmCardInfo {
+    width: 100%;
+  }
+  .confirmCard {
+    width: 260px !important;
+  }
+  .confirmOrderPopup {
+    padding: 30px 18px;
+  }
+}
+
+.successCardHeaderIcon path {
+  fill: #605ee6;
+}

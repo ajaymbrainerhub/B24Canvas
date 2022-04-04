@@ -1,0 +1,25 @@
+name: 'Deploy'
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./client
+    strategy:
+      matrix:
+        node-version: [ 14.x ]
+    steps:
+      - name: Deploy
+        uses: garygrossgarten/github-action-ssh@release
+        with:
+          command: cd /var/www/b24chat.com && . deploy.canvas.sh
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: ${{ secrets.PORT }}
+          privateKey: ${{ secrets.PRIVATE_KEY }}

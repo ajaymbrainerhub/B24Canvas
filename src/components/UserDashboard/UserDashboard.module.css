@@ -1,0 +1,24 @@
+.userBar {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.userPic {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.userName {
+  margin-left: 1rem;
+}

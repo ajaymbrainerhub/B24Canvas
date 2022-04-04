@@ -1,0 +1,13 @@
+.userNav {
+  /* margin-left: auto; */
+  display: flex;
+  align-items: center;
+}
+.userNav button {
+  min-width: 75px;
+  padding: 3px 15px;
+  height: auto;
+  min-height: 27px !important;
+  border-radius: 50px;
+  white-space: nowrap;
+}

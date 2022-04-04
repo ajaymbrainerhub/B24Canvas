@@ -1,0 +1,14 @@
+.editorContainer {
+  background-color: #edf0f2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.editorBottomContainer {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+}

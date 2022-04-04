@@ -1,0 +1,72 @@
+.container {
+  flex-grow: 1;
+  padding: 3vh 3vw 3vh 3vw;
+}
+.masonry {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.indexTitle {
+  margin-bottom: 32px;
+  font-size: 1.5em;
+  line-height: 1.3;
+}
+
+.topBar {
+  font-size: 1.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btnNewFolder {
+  display: flex;
+  align-items: center;
+}
+
+.emptyWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+.empty {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.emptyWrapper svg {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.emptyWrapper h2 {
+  margin-bottom: 10px;
+}
+
+.emptyWrapper span {
+  margin-bottom: 15px;
+}
+
+.buttomBar {
+  display: flex;
+  width: 200px;
+  height: 172px;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyWrapper button {
+  background-color: #005ad1;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: white;
+}
+
+.masonry::after {
+  content: '';
+  flex-grow: 999999999;
+}

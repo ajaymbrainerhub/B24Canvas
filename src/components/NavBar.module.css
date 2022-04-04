@@ -1,0 +1,83 @@
+.navBar {
+  padding: 6px 18px;
+  padding: 4px 18px;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.nav > li {
+  padding: 4px 12px;
+  letter-spacing: 0.01rem;
+}
+
+/* .logo {
+  margin-left: 20px;
+} */
+
+.logo > svg {
+  width: 50px;
+  height: 50px;
+  width: 42px;
+  height: 42px;
+}
+
+.searchBar {
+  display: flex;
+  background-color: #efefef !important;
+  padding: 12px 25px;
+  border-radius: 50px;
+  margin: 0 25px;
+  width: 100%;
+}
+
+.searchBar svg {
+  width: 17px;
+  height: 17px;
+  margin-right: 12px;
+}
+
+.createDesignBtn {
+  width: 16rem !important;
+  border: 1px solid #3f51b5 !important;
+  background-color: #3f51b5 !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+  line-height: 16px !important;
+  border-radius: 50px !important;
+  padding: 5px 18px !important;
+  white-space: nowrap !important;
+}
+
+.createDesignBtn span {
+  text-align: center !important;
+  font-size: 12px !important;
+}
+
+.bellIcon {
+  width: 4rem !important;
+  font-size: 2rem !important;
+}
+
+.homeBtn {
+  width: 7rem !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-left: 12px !important;
+}
+
+.homeBtn svg {
+  font-size: 2rem !important;
+}
+
+.homeBtn p {
+  font-weight: 600 !important;
+  margin-top: 6px !important;
+}

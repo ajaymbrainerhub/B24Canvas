@@ -1,0 +1,230 @@
+.designTools {
+  padding: 8px;
+  background-color: white;
+  min-height: 24px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+}
+
+.nothingSelected {
+  font-size: 1.4rem;
+  color: #5a5a5a;
+  font-weight: 600;
+}
+
+.designForm {
+  padding: 2rem 1rem 0;
+}
+
+.leftNav {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightNav {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+
+.sector {
+  flex-direction: row;
+}
+
+.leftNav > * {
+  margin-right: 4px;
+}
+
+.rightNav > * {
+  margin-left: 4px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.fontFamily {
+  background-color: #fff;
+  padding: 0 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fontSize {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fontSize input {
+  height: 24px !important;
+  width: 60px;
+  border-color: #ddd !important;
+}
+
+.fontSize input::-webkit-outer-spin-button,
+.fontSize input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.fontSizeControl {
+  display: flex;
+  align-items: center;
+}
+
+.fontSizeBtn {
+  background-color: #fff;
+  cursor: pointer;
+  user-select: none;
+  width: 20px;
+  height: 22px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+  display: block;
+  text-align: center;
+  border-left-color: transparent;
+}
+
+.fontSizeBtn:hover {
+  background-color: #ddd;
+}
+
+.fontSizeBtn svg {
+  width: 10px;
+  height: 100%;
+}
+
+.fontWeight {
+  width: 26px;
+  height: 24px;
+  cursor: pointer;
+  text-align: center;
+  background: #f1f1f1;
+  border-radius: 25px;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease all;
+}
+
+.fontWeight svg {
+  height: 14px;
+  width: 14px;
+}
+
+.colorChoose {
+  width: 7.7rem;
+  height: 7.7rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  margin: 0 10px 0 0;
+}
+
+.opacityChange {
+  box-shadow: 0 10px 30px #d1d5df80;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+.opacityChange svg {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1.5rem;
+}
+
+.opacityChange .slider {
+  margin: 1.5rem 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.opacityChange .info {
+  background-color: #f1f1f1;
+  margin-left: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2.5rem;
+  font-weight: 400;
+}
+
+.opacityChange span {
+  margin: 2rem 0;
+}
+
+.editText label {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.editText {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.editText label {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 0.5rem;
+}
+
+.editText textarea {
+  background-color: #eceff2;
+  height: 90px;
+  border-radius: 1.5rem;
+  padding: 1.5rem 2rem;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+
+.colorAndControl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.changeColorButton {
+  background-color: #ededed;
+  border-radius: 2.5rem;
+}
+
+.changeFont {
+  display: flex;
+  flex-direction: column;
+}
+
+.textAlign {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.textAlign svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.textAlign button {
+  height: 2.3rem;
+}
+@media only screen and (max-width: 991px) {
+  .fontFamily {
+    width: 130px;
+  }
+}

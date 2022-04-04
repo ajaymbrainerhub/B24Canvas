@@ -1,0 +1,266 @@
+.cover {
+  height: 290px;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  margin-top: 5rem;
+}
+
+.container {
+  padding: 0 5rem;
+}
+
+.avatarContainer {
+  margin-top: -15rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.avatarContainer .imgContainer {
+  margin-bottom: 1.5rem;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 0.3rem solid white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.avatarContainer span {
+  display: block;
+  width: auto;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 35px;
+  color: #000;
+}
+
+.ghostButton svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1rem;
+}
+
+.nick,
+.following {
+  font-weight: 600;
+  font-size: 25px;
+  color: #585858;
+}
+
+.avatarAndButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.userDesignButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.userDesignButtons .ghostButton button {
+  font-size: 20px;
+}
+
+.roundedButton button {
+  border: 2px solid #3a79cd;
+  border-radius: 25px;
+  color: #3a79cd;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  height: 4rem;
+}
+
+.roundedButton button:hover {
+  color: white;
+  background: #3a79cd;
+}
+
+.designsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+.userDetailsPart1,
+.userDetailsPart2 {
+  width: calc(50% - 130px);
+}
+
+.designsContainer .designItem {
+  height: 10rem;
+  width: 10rem;
+  overflow: hidden;
+  /* margin-right: 15px; */
+  background-color: #d9d9d9 !important;
+  background: #d9d9d9;
+  border: 1px solid #d9d9d9;
+  padding: 0;
+  text-align: right;
+  box-shadow: 0px 1px 8px 0px rgb(0 0 0 / 12%) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 5px;
+}
+
+.designsContainer .designItem img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.designsContainer .designItem:last-child {
+  margin-right: 0;
+}
+
+.designItemBlock {
+  width: 10rem;
+  margin-right: 22px;
+  margin-bottom: 6px;
+}
+.designItemBlockTitle {
+  font-size: 12px !important;
+  color: #000;
+  margin: 8px 0 18px !important;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*.designsContainer img {
+  margin-top: -4.3rem;
+}*/
+
+.designsContainer .tag {
+  display: inline-block;
+  top: 25px;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.6rem 0.9rem rgba(0, 0, 0, 0.16);
+  font-size: 16px;
+  left: 25px;
+}
+
+.masonItem {
+  margin: 0 24px 56px 0;
+  position: relative;
+}
+
+.masonItem > i {
+  display: block;
+}
+
+.masonItem > div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.footer {
+  height: 15rem;
+}
+
+.userCover {
+  background-color: #eaf4ff;
+  height: 140px;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 35px;
+}
+.userCoverInner {
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.userCoverInner button {
+  border: none;
+  text-transform: capitalize;
+  font-size: 12px;
+  line-height: 20px;
+  height: auto;
+  min-height: auto;
+  padding: 6px 18px;
+}
+.userDetails {
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+.userDetails button {
+  padding: 0 10px;
+  text-transform: capitalize;
+  height: auto;
+  min-height: 0;
+  font-size: 11px;
+  line-height: 16px;
+}
+.userDetails button svg {
+  width: 16px;
+  margin-right: 8px;
+  height: 16px;
+}
+.userDetailsBlock {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -90px !important;
+}
+.userImg {
+  width: 125px !important;
+  height: 125px !important;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 8%) !important;
+}
+.userName {
+  font-size: 17px !important;
+  font-weight: 700 !important;
+}
+.userEmail {
+  font-size: 11px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 2rem;
+  }
+  .userCover {
+    align-items: flex-start;
+  }
+  .userDetailsBlock {
+    order: 0;
+    width: 100%;
+    margin-bottom: 25px !important;
+  }
+  .userDetailsPart1 {
+    order: 1;
+    width: 50%;
+  }
+  .userDetailsPart2 {
+    width: 50%;
+    order: 2;
+  }
+}
